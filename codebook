@@ -1,0 +1,22 @@
+The following gives a description of the variables used for this project
+The data set we were provided was from an experiment for exercise metrics.  The data
+can be found in this link 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+In this experiment, thirty subjects had data collected for their metrics with regards to different types of activities for exercise.  
+
+Each person in the experiment wore a sensor that recorded data from accelerometers and gyroscopes  and had a series of pre-processed data techniques applied.  By the time we have obtained the data,  these pre-processed techniques had already been applied.
+
+Activities these subjects performed were one of six: walking, walking upstairs, walking downstairs, sitting, standing, and laying down.  
+ 561 variables were collected for each activity over multiple observations.  
+The  final data analysis produces a tidy dataset contains the following  data points
+1.  SUBJECTS:
+Numbered 1-30.  No names are given
+2.  ACTIVITY.LABEL:
+1 is Walking
+2 is Walking Upstairs
+3 is Walking Downstairs
+4 is Sitting
+5 is Standing
+6 is Laying
+3.  Colums 3 - 563: are  561  data points that are collected along with the experiment.  The description for this can be found in file features.txt.  They will not be documented here.
